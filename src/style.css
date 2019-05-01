@@ -1,0 +1,18 @@
+.nav-color{
+    background-color: #2cb802;
+    color: white;
+}
+
+.nav-color .navbar-brand{
+    color: white
+}
+
+.nav-color .btn{
+    color: #2cb802
+}
+
+.nav-color .btn-outline-success{
+    border-color: white;
+    background-color: white
+
+}
