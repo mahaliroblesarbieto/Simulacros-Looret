@@ -1,19 +1,41 @@
 .nav-color{
     background-color: #2cb802;
-    color: white;
+    font-family: "Montserrat", sans-serif;
 }
 
-.nav-color .navbar-brand{
+
+.nav-color .navbar-toggler{
     color: white
 }
 
 .nav-color .btn{
-    color: #2cb802;
-    font-weight: bolder
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .nav-color .btn-outline-success{
     border-color: white;
-    background-color: white
+    border-radius: 50px;
+    background: white
+}
+
+img{
+    margin-left: 5%;
+    width: 35%;
+    height: 35%;
+}
+
+.footer-color{
+    background-color: #ffc107;
+    color: black;
+    font-weight: bolder
+}
+
+@media (min-width: 600px){
+    img{
+        width: 10%;
+        height: 10%;
+    }
 
 }
